@@ -1,0 +1,81 @@
+{
+  "slug": "apartamento-jd",
+  "title": "Apartamento JD",
+  "subtitle": "Reforma de um apartamento dos anos 1970 para uma família de três gerações",
+  "category": "residencial",
+  "categoryLabel": "Residencial",
+  "year": "2024",
+  "location": "Jardim das Bandeiras, São Paulo — SP",
+  "area": "138 m²",
+  "status": "Construído",
+  "order": 2,
+  "cover": {
+    "src": "/images/projects/apartamento-jd/hero.jpg",
+    "alt": "Sala de estar com luz natural e marcenaria em madeira clara",
+    "orientation": "landscape"
+  },
+  "description": "Reorganização espacial de uma planta compartimentada, resolvendo a convivência entre avós, pais e uma criança pequena.",
+  "intro": "A planta original tinha nove portas fechadas em 138 m². O programa pedia o oposto: espaços que se abrem e se fecham conforme o momento do dia — a sala que vira quarto de hóspedes, o home office que absorve o barulho da casa sem isolar quem trabalha nele.",
+  "concept": "Trabalhamos com um único eixo de circulação, liberado da alvenaria original, ao redor do qual giram três núcleos molhados fixos. As paredes móveis em painel ripado substituem portas onde antes havia divisórias rígidas, permitindo reconfigurar a casa em minutos — critério definido junto à família ainda na fase de programa de necessidades.",
+  "approach": "Todo o projeto foi desenvolvido em modelo BIM compartilhado com a marcenaria e a instalação elétrica, o que permitiu compatibilizar pontos de luz, tomadas e módulos de marcenaria antes da obra começar — eliminando os retrabalhos que normalmente aparecem só no canteiro. As reuniões de programa de necessidades foram conduzidas com as três gerações presentes, não apenas com os contratantes.",
+  "gallery": [
+    {
+      "src": "/images/projects/apartamento-jd/01.jpg",
+      "alt": "Cozinha integrada com ilha central",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/apartamento-jd/02.jpg",
+      "alt": "Painel ripado móvel entre sala e escritório",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/apartamento-jd/03.jpg",
+      "alt": "Suíte principal com luz da tarde",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/apartamento-jd/04.jpg",
+      "alt": "Detalhe de marcenaria sob medida",
+      "orientation": "portrait"
+    }
+  ],
+  "diagrams": [
+    {
+      "src": "/images/projects/apartamento-jd/diagrama.jpg",
+      "alt": "Diagrama de configurações espaciais ao longo do dia",
+      "orientation": "square"
+    }
+  ],
+  "drawings": [
+    {
+      "src": "/images/projects/apartamento-jd/planta.jpg",
+      "alt": "Planta baixa com eixo de circulação e núcleos molhados",
+      "orientation": "landscape"
+    }
+  ],
+  "details": [
+    {
+      "title": "Painéis móveis",
+      "text": "Sistema de trilho duplo embutido no forro, dimensionado em BIM para não interferir nos dutos de ar-condicionado existentes."
+    },
+    {
+      "title": "Iluminação",
+      "text": "Camadas de luz geral, de tarefa e de acento comandadas por três cenas pré-definidas junto com a família, simplificando o uso diário."
+    }
+  ],
+  "software": ["Revit", "Enscape", "SketchUp", "AutoCAD"],
+  "team": [
+    {
+      "name": "Gabriel Augusto Moreira Marinho",
+      "role": "Arquiteto responsável"
+    },
+    { "name": "Marcenaria Estúdio Cerne", "role": "Execução de marcenaria" },
+    {
+      "name": "Instaladora Elétrica Parceira",
+      "role": "Projeto e execução elétrica"
+    }
+  ],
+  "conclusion": "O apartamento hoje muda de forma junto com a rotina de quem mora nele. O projeto reafirma uma convicção de trabalho: o programa de necessidades bem ouvido resolve mais problemas do que qualquer solução formal aplicada a priori.",
+  "nextProjectSlug": "ubs-vila-esperanca"
+}

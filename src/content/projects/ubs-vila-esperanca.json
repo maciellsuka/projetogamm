@@ -1,0 +1,45 @@
+{
+  "slug": "ubs-vila-esperanca",
+  "title": "UBS Vila Esperança",
+  "subtitle": "Unidade Básica de Saúde para um bairro de ocupação recente",
+  "category": "saude-social",
+  "categoryLabel": "Saúde & Projeto Social",
+  "year": "2022",
+  "location": "Vila Esperança, Campinas — SP",
+  "area": "620 m²",
+  "status": "Construído",
+  "order": 3,
+  "cover": {
+    "src": "/images/projects/ubs-vila-esperanca/hero.jpg",
+    "alt": "Fachada da unidade de saúde com brises verticais",
+    "orientation": "landscape"
+  },
+  "description": "Equipamento público desenvolvido em conjunto com a comunidade, priorizando conforto térmico passivo e clareza de circulação.",
+  "intro": "O terreno definido pela prefeitura tinha 10 metros de frente e a orientação solar mais desfavorável do quarteirão. Antes de propor uma solução, participamos de três assembleias com moradores e com a equipe de saúde da família que ocuparia o edifício — o programa de necessidades técnico só fez sentido depois de ouvir quem trabalha e quem é atendido ali todos os dias.",
+  "concept": "A fachada oeste recebeu brises verticais em concreto pré-moldado, dimensionados por simulação de insolação para reduzir o ganho térmico sem depender de ar-condicionado nas salas de espera. A recepção foi posicionada como um pátio coberto semiaberto — uma escolha da comunidade, que pediu um espaço de convívio, não apenas um corredor de espera.",
+  "approach": "O projeto seguiu os parâmetros do Ministério da Saúde para UBS de porte II, compatibilizados em BIM com as instalações de gases medicinais e o projeto de prevenção contra incêndio. A obra foi executada com mão de obra local contratada por meio de um programa municipal de capacitação, critério incluído já no edital.",
+  "gallery": [
+    { "src": "/images/projects/ubs-vila-esperanca/01.jpg", "alt": "Pátio de espera coberto e ventilado", "orientation": "landscape" },
+    { "src": "/images/projects/ubs-vila-esperanca/02.jpg", "alt": "Corredor de consultórios com luz zenital", "orientation": "portrait" },
+    { "src": "/images/projects/ubs-vila-esperanca/03.jpg", "alt": "Brises de concreto pré-moldado na fachada oeste", "orientation": "landscape" },
+    { "src": "/images/projects/ubs-vila-esperanca/04.jpg", "alt": "Sala de vacinação com ventilação cruzada", "orientation": "portrait" }
+  ],
+  "diagrams": [
+    { "src": "/images/projects/ubs-vila-esperanca/diagrama.jpg", "alt": "Diagrama de insolação e ventilação cruzada", "orientation": "square" }
+  ],
+  "drawings": [
+    { "src": "/images/projects/ubs-vila-esperanca/planta.jpg", "alt": "Planta baixa com setorização de fluxos: público, técnico e de apoio", "orientation": "landscape" }
+  ],
+  "details": [
+    { "title": "Brises pré-moldados", "text": "Peças produzidas em canteiro próprio, com ângulo calculado por estudo de carta solar para a fachada oeste, específica do lote." },
+    { "title": "Ventilação cruzada", "text": "Esquadrias posicionadas em paredes opostas em todas as salas de atendimento, dispensando climatização mecânica na maior parte do ano." }
+  ],
+  "software": ["Revit", "Climate Consultant", "AutoCAD", "SketchUp"],
+  "team": [
+    { "name": "Gabriel Augusto Moreira Marinho", "role": "Arquiteto responsável" },
+    { "name": "Equipe de Saúde da Família Vila Esperança", "role": "Consultoria de programa" },
+    { "name": "Construtora Municipal Parceira", "role": "Execução da obra" }
+  ],
+  "conclusion": "A UBS Vila Esperança opera hoje sem climatização artificial nas áreas de espera e atendimento, mesmo nos meses mais quentes. O projeto reforça uma posição de trabalho: arquitetura social não é uma versão reduzida da arquitetura — é arquitetura exercida sob restrições reais, o que exige mais técnica, não menos.",
+  "nextProjectSlug": "casarao-azul"
+}

@@ -1,0 +1,172 @@
+{
+  "identity": {
+    "name": "Gabriel Augusto Moreira Marinho",
+    "role": "Arquiteto e Urbanista",
+    "tagline": "Projetando espaços com técnica, inovação e propósito.",
+    "email": "gabrielaugustomoreira@gmail.com",
+    "phone": "+55 15 98120-6270",
+    "instagram": "@gamarinho_arq",
+    "linkedin": "linkedin.com/in/gabriel-augusto-marinho",
+    "location": "Sorocaba, SP"
+  },
+  "home": {
+    "heroImage": "/images/home/hero.jpg",
+    "heroHeadline": "Arquitetura nasce da compreensão antes da construção.",
+    "heroSub": "Projetos arquitetônicos, metodologia BIM, pesquisa aplicada e soluções que unem técnica, inovação e impacto social.",
+    "manifestoImage": "/images/home/manifesto.jpg",
+    "manifestoEyebrow": "Manifesto",
+    "manifestoTitle": "Cada projeto começa entendendo pessoas, contexto e território.",
+    "manifestoParagraphs": [
+      "Acredito que a arquitetura vai além da construção de edifícios. Ela nasce da leitura do lugar, das necessidades das pessoas e da busca por soluções que permaneçam relevantes ao longo do tempo.",
+      "Minha formação foi construída entre projetos acadêmicos, pesquisa científica, experiências em escritórios e iniciativas sociais, sempre explorando a integração entre criatividade, tecnologia e responsabilidade técnica.",
+      "Utilizo ferramentas como BIM, Revit e AutoCAD para tornar o processo de projeto mais eficiente, compatível e preciso, sem perder de vista a experiência de quem viverá os espaços projetados."
+    ]
+  },
+  "about": {
+    "portrait": "/images/about/gabriel.jpg",
+    "eyebrow": "Sobre",
+    "intro": "Estudante de Arquitetura e Urbanismo, atualmente no 9º semestre, com experiência em projetos arquitetônicos, projetos executivos, metodologia BIM, pesquisa aplicada e desenvolvimento de soluções voltadas à inovação e ao impacto social.",
+    "paragraphs": [
+      "Ao longo da graduação participei de projetos de pesquisa, extensão universitária, escritórios de arquitetura e iniciativas sociais que fortaleceram minha atuação em modelagem BIM, compatibilização de projetos, renderização, geoprocessamento e desenvolvimento de projetos executivos.",
+      "Busco unir criatividade, organização e conhecimento técnico para desenvolver soluções arquitetônicas eficientes, sustentáveis e alinhadas às necessidades de cada projeto."
+    ],
+    "focusAreas": [
+      {
+        "title": "Projetos Arquitetônicos",
+        "text": "Desenvolvimento de projetos residenciais e executivos com foco em funcionalidade, qualidade técnica e detalhamento."
+      },
+      {
+        "title": "BIM & Compatibilização",
+        "text": "Modelagem em Revit, compatibilização entre disciplinas e aplicação da metodologia BIM em todas as etapas do projeto."
+      },
+      {
+        "title": "Pesquisa & Inovação",
+        "text": "Participação em pesquisas envolvendo concreto colorido de alta resistência, tecnologias construtivas e desenvolvimento acadêmico."
+      },
+      {
+        "title": "Arquitetura Social",
+        "text": "Atuação em projetos voltados ao desenvolvimento comunitário, habitação social e iniciativas de extensão universitária."
+      }
+    ]
+  },
+  "resume": {
+    "eyebrow": "Currículo",
+    "summary": "Estudante de Arquitetura e Urbanismo com experiência em projetos arquitetônicos, projetos executivos, BIM, pesquisa científica, geoprocessamento e iniciativas voltadas à inovação e ao impacto social.",
+
+    "education": [
+      {
+        "period": "2022 — Atual",
+        "title": "Bacharelado em Arquitetura e Urbanismo",
+        "place": "UNIFACENS",
+        "detail": "9º semestre em andamento."
+      },
+      {
+        "period": "2021",
+        "title": "Ensino Médio",
+        "place": "Colégio Adventista",
+        "detail": ""
+      }
+    ],
+
+    "experience": [
+      {
+        "period": "2026",
+        "title": "Estagiário",
+        "place": "Planear Engenharia e Arquitetura",
+        "detail": "Desenvolvimento de projetos arquitetônicos e executivos, apoio em projetos hidráulicos e gás, compatibilização estrutural, acessibilidade e aplicação da metodologia BIM."
+      },
+      {
+        "period": "2025",
+        "title": "Estagiário",
+        "place": "Mapio Arquitetura",
+        "detail": "Projetos executivos em Revit, modelagem BIM, renderização e automação aplicada ao fluxo de trabalho."
+      },
+      {
+        "period": "2023 — 2024",
+        "title": "Estagiário",
+        "place": "Huawei | UNIFACENS",
+        "detail": "Projetos preliminares para implantação de antenas utilizando AutoCAD."
+      },
+      {
+        "period": "2022",
+        "title": "Estagiário",
+        "place": "SEMEF — Manaus",
+        "detail": "Geoprocessamento, análise de terrenos e levantamentos cadastrais para atualização do IPTU."
+      },
+      {
+        "period": "2022",
+        "title": "Atendente Administrativo",
+        "place": "Consultório Médico (Unimed)",
+        "detail": "Atendimento ao público, organização administrativa e suporte ao consultório, com foco em atendimento humanizado."
+      }
+    ],
+
+    "academic": [
+      {
+        "period": "2025 — Atual",
+        "title": "Concretista Projetista",
+        "place": "StrongerTech | UNIFACENS",
+        "detail": "Pesquisa em concreto colorido de alta resistência, liderança do Projeto OUSADIA e participação no Congresso IBRACON."
+      },
+      {
+        "period": "2025",
+        "title": "Projetista Desenvolvedor",
+        "place": "Projeto Florestas Inteligentes",
+        "detail": "Pesquisa territorial e desenvolvimento de soluções arquitetônicas para comunidades da Amazônia e Mata Atlântica."
+      }
+    ],
+    "volunteering": [
+      {
+        "period": "2026",
+        "title": "Monitor de Revit",
+        "place": "UNIFACENS",
+        "detail": "Apoio ao ensino da metodologia BIM e orientação de estudantes no desenvolvimento de projetos arquitetônicos em Revit."
+      },
+      {
+        "period": "2025",
+        "title": "Secretário Voluntário",
+        "place": "Rotary Club",
+        "detail": "Participação em ações sociais, organização de atividades comunitárias e apoio institucional."
+      },
+      {
+        "period": "2025",
+        "title": "Voluntário",
+        "place": "TETO Brasil",
+        "detail": "Levantamentos habitacionais para famílias em situação de vulnerabilidade social."
+      },
+      {
+        "period": "2025",
+        "title": "Educador Voluntário",
+        "place": "Fundação Pescar",
+        "detail": "Ministração de aulas e orientação para jovens em formação profissional."
+      }
+    ],
+
+    "skills": [
+      "Revit",
+      "AutoCAD",
+      "BIM",
+      "Projetos Executivos",
+      "Compatibilização de Projetos",
+      "Renderização",
+      "Geoprocessamento",
+      "Modelagem BIM",
+      "Instalações Hidráulicas",
+      "Projetos de Gás",
+      "Acessibilidade",
+      "Concreto Armado",
+      "Concreto Colorido",
+      "Microsoft Office",
+      "Gestão de Equipes",
+      "Planejamento",
+      "Trabalho em Equipe"
+    ],
+
+    "downloadHref": "/documents/gabriel-marinho-curriculo.pdf"
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "headline": "Vamos transformar ideias em projetos.",
+    "text": "Estou disponível para oportunidades profissionais, desenvolvimento de projetos arquitetônicos, parcerias e novos desafios. Será um prazer conversar sobre seu projeto ou proposta."
+  }
+}

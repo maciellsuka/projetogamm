@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #f5f3ee;
+  --ink: #14130f;
+  --stone: #8b8579;
+  --line: #d8d3c7;
+  --clay: #6b5a45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--paper);
+  scroll-behavior: auto; /* Lenis controla o smooth scroll manualmente */
+}
+
+body {
+  @apply bg-paper text-ink font-body antialiased;
+  font-feature-settings: "ss01" on, "liga" on;
+}
+
+::selection {
+  background-color: var(--ink);
+  color: var(--paper);
+}
+
+/* Foco visível — acessibilidade, mesmo em um layout minimalista */
+:focus-visible {
+  outline: 2px solid var(--clay);
+  outline-offset: 3px;
+}
+
+/* Respeita preferência de movimento reduzido em todo o site */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Hairline rule reutilizável — divisor editorial */
+.rule {
+  height: 1px;
+  background-color: var(--line);
+}
+
+/* Elemento assinatura: marca de coordenada/prancha técnica */
+.draft-mark {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  color: var(--stone);
+}

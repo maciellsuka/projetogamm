@@ -1,0 +1,78 @@
+{
+  "slug": "casarao-azul",
+  "title": "Casarão Azul",
+  "subtitle": "Restauro e reocupação de um sobrado do século XIX",
+  "category": "patrimonio-historico",
+  "categoryLabel": "Patrimônio Histórico",
+  "year": "2023",
+  "location": "Centro Histórico, Itu — SP",
+  "area": "410 m²",
+  "status": "Construído",
+  "order": 1,
+  "cover": {
+    "src": "/images/projects/casarao-azul/hero.png",
+    "alt": "Fachada azul do sobrado histórico ao entardecer",
+    "orientation": "landscape"
+  },
+  "description": "Restauro de um sobrado tombado, devolvendo à cidade um edifício que havia sido esvaziado por trinta anos.",
+  "intro": "Antes de qualquer traço, houve um levantamento de quase seis meses: fotogrametria da fachada, sondagens na alvenaria de taipa, entrevistas com moradores que lembravam o casarão habitado. Projetar aqui não era desenhar o novo — era compreender o que a edificação já sabia sobre si mesma.",
+  "concept": "A intervenção parte de um princípio simples: tudo o que é original permanece legível, e tudo o que é novo se declara como tal. As esquadrias de peroba recuperadas convivem com um volume contemporâneo em aço corten inserido nos fundos do lote, sem disputar protagonismo com a fachada tombada. A cor azul, motivo do apelido popular do imóvel, foi recomposta a partir de análise estratigráfica das camadas de tinta originais.",
+  "approach": "O processo seguiu os critérios do IPHAN para bens tombados, com relatório fotográfico completo, caderno de encargos específico para cal e taipa, e acompanhamento técnico semanal durante toda a obra. O modelo BIM do levantamento cadastral serviu de base única para os projetos complementares, reduzindo divergências entre estrutura, instalações e restauro — um cuidado raro em obras de patrimônio, onde o desenho manual ainda predomina.",
+  "gallery": [
+    {
+      "src": "/images/projects/casarao-azul/01.png",
+      "alt": "Pátio interno com piso de tijolo recuperado",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/casarao-azul/02.png",
+      "alt": "Detalhe da alvenaria de taipa exposta",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/casarao-azul/03.png",
+      "alt": "Volume contemporâneo em aço corten nos fundos",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/casarao-azul/04.png",
+      "alt": "Sala principal restaurada com forro de madeira original",
+      "orientation": "landscape"
+    }
+  ],
+  "diagrams": [
+    {
+      "src": "/images/projects/casarao-azul/diagrama.jpg",
+      "alt": "Diagrama de estratos construtivos e intervenção",
+      "orientation": "square"
+    }
+  ],
+  "drawings": [
+    {
+      "src": "/images/projects/casarao-azul/planta.png",
+      "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
+      "orientation": "landscape"
+    }
+  ],
+  "details": [
+    {
+      "title": "Alvenaria de taipa",
+      "text": "Consolidação estrutural com técnicas compatíveis — sem cimento Portland em contato direto com a taipa original, respeitando a permeabilidade da parede."
+    },
+    {
+      "title": "Cobertura",
+      "text": "Reconstituição da estrutura de madeira em peroba-rosa certificada, mantendo o desenho original das tesouras identificado no levantamento."
+    }
+  ],
+  "software": ["Revit", "AutoCAD", "Recap Photo (fotogrametria)", "Lumion"],
+  "team": [
+    {
+      "name": "Gabriel Augusto Moreira Marinho",
+      "role": "Arquiteto responsável"
+    },
+    { "name": "Consultoria em Restauro", "role": "Análise estratigráfica" },
+    { "name": "Escritório Estrutural Associado", "role": "Projeto estrutural" }
+  ],
+  "conclusion": "O Casarão Azul reabriu como sede de um instituto cultural, com o pátio interno cedido ao uso público. Mais do que uma reforma, o projeto testou a hipótese de que restaurar é uma forma de escuta continuada — do material, da técnica e da memória de quem habitou o lugar antes de nós.",
+  "nextProjectSlug": "apartamento-jd"
+}
