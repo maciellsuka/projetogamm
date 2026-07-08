@@ -6,7 +6,8 @@ import { getSiteContent } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contato",
-  description: "Entre em contato para projetos residenciais, consultorias em patrimônio histórico e parcerias institucionais.",
+  description:
+    "Entre em contato para projetos residenciais, consultorias em patrimônio histórico e parcerias institucionais.",
 };
 
 export default function ContactPage() {
@@ -32,7 +33,10 @@ export default function ContactPage() {
             <div className="border-t border-line pt-8 space-y-6">
               <div>
                 <p className="draft-mark mb-1">E-mail</p>
-                <a href={`mailto:${identity.email}`} className="text-lg text-ink hover:text-clay transition-colors">
+                <a
+                  href={`mailto:${identity.email}`}
+                  className="text-lg text-ink hover:text-clay transition-colors"
+                >
                   {identity.email}
                 </a>
               </div>
@@ -42,11 +46,25 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="draft-mark mb-1">Instagram</p>
-                <p className="text-lg text-ink">{identity.instagram}</p>
+                <a
+                  href="https://www.instagram.com/gamarinho_arq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-clay transition-colors"
+                >
+                  <p className="text-lg text-ink">{identity.instagram}</p>
+                </a>
               </div>
               <div>
                 <p className="draft-mark mb-1">LinkedIn</p>
-                <p className="text-lg text-ink">{identity.linkedin}</p>
+                <a
+                  href="https://linkedin.com/in/gabriel-augusto-marinho"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-clay transition-colors"
+                >
+                  <p className="text-lg text-ink">{identity.linkedin}</p>
+                </a>
               </div>
               <div>
                 <p className="draft-mark mb-1">Localização</p>

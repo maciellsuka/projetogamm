@@ -37,21 +37,30 @@ export function generateMetadata(): Metadata {
       siteName: title,
       locale: "pt_BR",
       type: "website",
-      images: [{ url: "/images/home/hero.jpg", width: 1920, height: 1200, alt: title }],
+      images: [
+        { url: "/images/home/hero.svg", width: 1920, height: 1200, alt: title },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: ["/images/home/hero.jpg"],
+      images: ["/images/home/hero.svg"],
     },
     robots: { index: true, follow: true },
   };
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="pt-BR" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html
+      lang="pt-BR"
+      className={`${display.variable} ${body.variable} ${mono.variable}`}
+    >
       <body>
         <SmoothScroll />
         <Navbar />

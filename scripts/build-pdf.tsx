@@ -79,17 +79,19 @@ function PortfolioDocument() {
           <Text style={styles.eyebrow}>{project.categoryLabel}</Text>
           <Text style={styles.projectTitle}>{project.title}</Text>
           <Text style={styles.projectMeta}>
-            {project.year} — {project.location}{" "}
-            {project.area ? `— ${project.area}` : ""}
+            {project.year} — {project.location}
+            {project.area ? ` — ${project.area}` : ""}
+            {project.client ? ` — Cliente: ${project.client}` : ""}
           </Text>
 
           <View style={styles.hr} />
 
-          <Text style={styles.paragraph}>{project.intro}</Text>
-          <Text style={styles.paragraph}>{project.concept}</Text>
-          {project.approach && (
-            <Text style={styles.paragraph}>{project.approach}</Text>
-          )}
+          {project.memorial.map((paragraph, i) => (
+            // O PDF usa texto plano: remove a marcação **negrito** usada no site.
+            <Text key={i} style={styles.paragraph}>
+              {paragraph.replace(/\*\*([^*]+)\*\*/g, "$1")}
+            </Text>
+          ))}
 
           <View style={styles.hr} />
 
@@ -119,8 +121,7 @@ async function main() {
   const outDir = path.join(process.cwd(), "public", "documents");
   fs.mkdirSync(outDir, { recursive: true });
   const outPath = path.join(outDir, "gabriel-marinho-portfolio.pdf");
-  // Corrige: converte o Buffer do Node.js para Uint8Array se necessário para evitar erro de tipo
-  fs.writeFileSync(outPath, new Uint8Array(buffer));
+  fs.writeFileSync(outPath, buffer);
   console.log(`PDF gerado em ${outPath}`);
 }
 

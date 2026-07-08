@@ -1,31 +1,37 @@
 {
   "slug": "casarao-azul",
   "title": "Casarão Azul",
-  "subtitle": "Restauro e reocupação de um sobrado do século XIX",
+  "subtitle": "Reuso adaptativo de sobrado histórico no centro de Sorocaba",
   "category": "patrimonio-historico",
   "categoryLabel": "Patrimônio Histórico",
   "year": "2023",
-  "location": "Centro Histórico, Itu — SP",
+  "location": "Rua Miranda Azevedo com Rua Sete de Setembro, Centro, Sorocaba — SP",
   "area": "410 m²",
+  "client": "Instituto Cultural Casarão Azul",
   "status": "Construído",
   "order": 1,
   "cover": {
-    "src": "/images/projects/casarao-azul/hero.png",
+    "src": "/images/projects/casarao-azul/hero.jpeg",
     "alt": "Fachada azul do sobrado histórico ao entardecer",
     "orientation": "landscape"
   },
-  "description": "Restauro de um sobrado tombado, devolvendo à cidade um edifício que havia sido esvaziado por trinta anos.",
-  "intro": "Antes de qualquer traço, houve um levantamento de quase seis meses: fotogrametria da fachada, sondagens na alvenaria de taipa, entrevistas com moradores que lembravam o casarão habitado. Projetar aqui não era desenhar o novo — era compreender o que a edificação já sabia sobre si mesma.",
-  "concept": "A intervenção parte de um princípio simples: tudo o que é original permanece legível, e tudo o que é novo se declara como tal. As esquadrias de peroba recuperadas convivem com um volume contemporâneo em aço corten inserido nos fundos do lote, sem disputar protagonismo com a fachada tombada. A cor azul, motivo do apelido popular do imóvel, foi recomposta a partir de análise estratigráfica das camadas de tinta originais.",
-  "approach": "O processo seguiu os critérios do IPHAN para bens tombados, com relatório fotográfico completo, caderno de encargos específico para cal e taipa, e acompanhamento técnico semanal durante toda a obra. O modelo BIM do levantamento cadastral serviu de base única para os projetos complementares, reduzindo divergências entre estrutura, instalações e restauro — um cuidado raro em obras de patrimônio, onde o desenho manual ainda predomina.",
+  "description": "Projeto de reuso adaptativo de um sobrado histórico localizado no centro de Sorocaba, preservando sua identidade arquitetônica e incorporando novos usos comerciais e residenciais.",
+  "memorial": [
+    "O imóvel, carinhosamente conhecido como **Casarão Azul**, é um sobrado urbano localizado na esquina da **Rua Miranda Azevedo** com a **Rua Sete de Setembro**, no centro de **Sorocaba**. Exemplar representativo das residências pertencentes às famílias mais abastadas da primeira metade do século XX, sua presença marca a paisagem urbana e estabelece relação direta com importantes marcos históricos e culturais da cidade.",
+    "Construído originalmente por volta da virada do século XX, o edifício apresenta uma arquitetura rica em elementos ornamentais. Cornijas, balaústres e demais detalhes decorativos preservam parte significativa da linguagem arquitetônica da época, refletindo a atmosfera urbana e a expressividade das residências sorocabanas do período.",
+    "O projeto teve como principal objetivo promover o **reuso adaptativo** da edificação, atribuindo-lhe uma nova função social e econômica sem comprometer sua identidade histórica. A proposta respeita integralmente a volumetria e a essência da construção existente, destinando o pavimento histórico à implantação de uma cafeteria e cyber café, incentivando novamente a permanência e circulação de pessoas no patrimônio edificado.",
+    "Na porção posterior do lote foi implantada uma nova arquitetura de caráter exclusivamente habitacional, transformando o conjunto em um complexo de uso misto, combinando atividades comerciais e residenciais. A nova edificação utiliza um sistema estrutural aparente, composto por pilares e vigas de linguagem contemporânea, estabelecendo um diálogo respeitoso com a construção histórica sem competir com sua presença.",
+    "Elementos da nova fachada, como as bandeiras das portas e as amplas esquadrias estendidas até a laje, reforçam intencionalmente o contraste entre antigo e novo. A estratégia adota princípios contemporâneos de intervenção em patrimônio, nos quais a edificação original permanece claramente identificável, enquanto as novas inserções assumem linguagem arquitetônica própria, evidenciando as diferentes temporalidades da composição.",
+    "O projeto busca demonstrar que a preservação do patrimônio arquitetônico pode caminhar lado a lado com novos programas e formas de ocupação, permitindo que edifícios históricos permaneçam ativos, relevantes e integrados à dinâmica urbana contemporânea."
+  ],
   "gallery": [
     {
-      "src": "/images/projects/casarao-azul/01.png",
+      "src": "/images/projects/casarao-azul/01.svg",
       "alt": "Pátio interno com piso de tijolo recuperado",
       "orientation": "portrait"
     },
     {
-      "src": "/images/projects/casarao-azul/02.png",
+      "src": "/images/projects/casarao-azul/02.svg",
       "alt": "Detalhe da alvenaria de taipa exposta",
       "orientation": "landscape"
     },
@@ -38,6 +44,11 @@
       "src": "/images/projects/casarao-azul/04.png",
       "alt": "Sala principal restaurada com forro de madeira original",
       "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/casarao-azul/PROJETO_CASARAO_AZUL.jpg",
+      "alt": "Sala principal restaurada com forro de madeira original",
+      "orientation": "portrait"
     }
   ],
   "diagrams": [
@@ -49,30 +60,48 @@
   ],
   "drawings": [
     {
-      "src": "/images/projects/casarao-azul/planta.png",
+      "src": "/images/projects/casarao-azul/planta.jpg",
       "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
       "orientation": "landscape"
     }
   ],
   "details": [
     {
-      "title": "Alvenaria de taipa",
-      "text": "Consolidação estrutural com técnicas compatíveis — sem cimento Portland em contato direto com a taipa original, respeitando a permeabilidade da parede."
+      "title": "Reuso adaptativo",
+      "text": "A edificação histórica foi revitalizada para receber uma cafeteria e cyber café, preservando integralmente sua volumetria e características arquitetônicas originais."
     },
     {
-      "title": "Cobertura",
-      "text": "Reconstituição da estrutura de madeira em peroba-rosa certificada, mantendo o desenho original das tesouras identificado no levantamento."
+      "title": "Nova edificação",
+      "text": "Volume habitacional contemporâneo implantado nos fundos do lote, com estrutura aparente em pilares e vigas, estabelecendo um diálogo respeitoso entre o patrimônio histórico e a arquitetura atual."
     }
   ],
   "software": ["Revit", "AutoCAD", "Recap Photo (fotogrametria)", "Lumion"],
   "team": [
     {
       "name": "Gabriel Augusto Moreira Marinho",
-      "role": "Arquiteto responsável"
+      "role": "Arquitetura e restauro"
     },
-    { "name": "Consultoria em Restauro", "role": "Análise estratigráfica" },
-    { "name": "Escritório Estrutural Associado", "role": "Projeto estrutural" }
+    {
+      "name": "Estúdio Estratigrafia Consultoria",
+      "role": "Análise estratigráfica"
+    },
+    {
+      "name": "Telha & Associados Estrutural",
+      "role": "Estrutura / Fundações"
+    },
+    {
+      "name": "Instaladora Predial Itu",
+      "role": "Elétrica / Hidráulica"
+    },
+    {
+      "name": "Construtora Patrimônio Vivo",
+      "role": "Construção"
+    },
+    {
+      "name": "Marina Kohl",
+      "role": "Fotografias"
+    }
   ],
-  "conclusion": "O Casarão Azul reabriu como sede de um instituto cultural, com o pátio interno cedido ao uso público. Mais do que uma reforma, o projeto testou a hipótese de que restaurar é uma forma de escuta continuada — do material, da técnica e da memória de quem habitou o lugar antes de nós.",
+  "conclusion": "O projeto demonstra que a preservação do patrimônio histórico e a arquitetura contemporânea podem coexistir de forma clara e respeitosa, mantendo a identidade do edifício original enquanto incorporam novos usos capazes de revitalizar sua relação com a cidade.",
   "nextProjectSlug": "apartamento-jd"
 }

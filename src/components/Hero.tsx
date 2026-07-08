@@ -17,12 +17,18 @@ export function Hero({
   headline: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start start", "end start"] });
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start start", "end start"],
+  });
   const y = useTransform(scrollYProgress, [0, 1], ["0%", "18%"]);
   const opacity = useTransform(scrollYProgress, [0, 0.9], [1, 0]);
 
   return (
-    <section ref={ref} className="relative h-[100svh] w-full overflow-hidden bg-ink">
+    <section
+      ref={ref}
+      className="relative h-[100svh] w-full overflow-hidden bg-paper"
+    >
       <motion.div style={{ y }} className="absolute inset-0">
         <Image
           src={image}
@@ -35,18 +41,28 @@ export function Hero({
         <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/10 to-ink/30" />
       </motion.div>
 
-      <motion.div style={{ opacity }} className="relative z-10 flex h-full flex-col justify-between px-5 py-8 sm:px-8 sm:py-10 lg:px-16 lg:py-14">
+      <motion.div
+        style={{ opacity }}
+        className="relative z-10 flex h-full flex-col justify-between px-5 py-8 sm:px-8 sm:py-10 lg:px-16 lg:py-14"
+      >
         <div className="flex items-center justify-between">
-          <DraftMark label={role} className="!text-paper/70" />
-          <DraftMark label="Portfólio 2026" className="!text-paper/70 hidden sm:inline-flex" />
+          <DraftMark label={role} className="!text-ink/70" />
+          <DraftMark
+            label="Portfólio 2026"
+            className="!text-ink/70 hidden sm:inline-flex"
+          />
         </div>
 
         <div className="max-w-4xl">
           <motion.h1
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1], delay: 0.15 }}
-            className="font-display text-display-xl font-light text-paper text-balance"
+            transition={{
+              duration: 1.1,
+              ease: [0.22, 1, 0.36, 1],
+              delay: 0.15,
+            }}
+            className="font-display text-display-xl font-light text-ink text-balance"
           >
             {name}
           </motion.h1>
@@ -54,7 +70,7 @@ export function Hero({
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1], delay: 0.4 }}
-            className="mt-6 max-w-xl text-body-lg text-paper/85 text-balance"
+            className="mt-6 max-w-xl text-body-lg text-ink/85 text-balance"
           >
             {headline}
           </motion.p>

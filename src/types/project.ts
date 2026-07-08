@@ -25,13 +25,19 @@ export type Project = {
   year: string;
   location: string;
   area?: string;
+  client?: string; // opcional — aparece na Ficha Técnica quando houver
   status: string; // e.g. "Construído", "Projeto executivo", "Concurso"
   order: number; // manual ordering for the homepage/feed
   cover: ProjectImage;
   description: string; // short, used in cards / meta
-  intro: string; // opening editorial paragraph on the project page
-  concept: string;
-  approach?: string; // process / method paragraph (listening, technique, BIM, etc.)
+  /**
+   * Memorial descritivo — o texto principal da página do projeto.
+   * Um array de parágrafos corridos (não fragmentados em mini-seções),
+   * no espírito de um memorial de arquitetura: contexto, programa, números,
+   * conceito e processo tratados como uma única narrativa contínua.
+   * Suporta ênfase inline com **negrito** (nomes, números, termos-chave).
+   */
+  memorial: string[];
   gallery: ProjectImage[];
   diagrams: ProjectImage[];
   drawings: ProjectImage[];

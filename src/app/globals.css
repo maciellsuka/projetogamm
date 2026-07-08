@@ -8,6 +8,8 @@
   --stone: #8b8579;
   --line: #d8d3c7;
   --clay: #6b5a45;
+  --tfg-blue: #263546;
+  --tfg-linho: #faeee5;
 }
 
 * {
@@ -21,7 +23,9 @@ html {
 
 body {
   @apply bg-paper text-ink font-body antialiased;
-  font-feature-settings: "ss01" on, "liga" on;
+  font-feature-settings:
+    "ss01" on,
+    "liga" on;
 }
 
 ::selection {

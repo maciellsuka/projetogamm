@@ -71,8 +71,22 @@ export function Footer() {
                 </a>
               </li>
               <li>{identity.phone}</li>
-              <li>{identity.instagram}</li>
-              <li>{identity.linkedin}</li>
+              <a
+                href="https://www.instagram.com/gamarinho_arq"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-clay transition-colors"
+              >
+                <li>{identity.instagram}</li>
+              </a>
+              <a
+                href="https://linkedin.com/in/gabriel-augusto-marinho"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-clay transition-colors"
+              >
+                <li>{identity.linkedin}</li>
+              </a>
             </ul>
           </div>
         </div>

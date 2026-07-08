@@ -7,6 +7,7 @@
   "year": "2024",
   "location": "Jardim das Bandeiras, São Paulo — SP",
   "area": "138 m²",
+  "client": "Cliente privado",
   "status": "Construído",
   "order": 2,
   "cover": {
@@ -15,9 +16,14 @@
     "orientation": "landscape"
   },
   "description": "Reorganização espacial de uma planta compartimentada, resolvendo a convivência entre avós, pais e uma criança pequena.",
-  "intro": "A planta original tinha nove portas fechadas em 138 m². O programa pedia o oposto: espaços que se abrem e se fecham conforme o momento do dia — a sala que vira quarto de hóspedes, o home office que absorve o barulho da casa sem isolar quem trabalha nele.",
-  "concept": "Trabalhamos com um único eixo de circulação, liberado da alvenaria original, ao redor do qual giram três núcleos molhados fixos. As paredes móveis em painel ripado substituem portas onde antes havia divisórias rígidas, permitindo reconfigurar a casa em minutos — critério definido junto à família ainda na fase de programa de necessidades.",
-  "approach": "Todo o projeto foi desenvolvido em modelo BIM compartilhado com a marcenaria e a instalação elétrica, o que permitiu compatibilizar pontos de luz, tomadas e módulos de marcenaria antes da obra começar — eliminando os retrabalhos que normalmente aparecem só no canteiro. As reuniões de programa de necessidades foram conduzidas com as três gerações presentes, não apenas com os contratantes.",
+  "memorial": [
+    "O Apartamento JD ocupa um edifício residencial dos **anos 1970** no Jardim das Bandeiras, com uma planta típica da época: corredores estreitos, cômodos compartimentados e **nove portas fechadas** distribuídas em **138 m²**. O programa pedido pela família era, na prática, o oposto dessa lógica — espaços que se abrem e se fecham conforme o momento do dia, não divisões fixas herdadas de uma planta genérica de incorporação.",
+    "A encomenda vinha de uma composição familiar específica: um casal, um filho pequeno e os avós maternos, que passariam a morar na unidade em tempo parcial. As reuniões de programa de necessidades foram conduzidas com as **três gerações presentes**, não apenas com os contratantes — um critério que mudou decisões que, de outra forma, teriam sido tomadas só pelo casal.",
+    "Trabalhamos com um único eixo de circulação, liberado da alvenaria original, ao redor do qual giram três núcleos molhados fixos (cozinha, lavabo e banheiro de serviço). As paredes rígidas que antes separavam sala, escritório e quarto de hóspedes foram substituídas por **painéis ripados móveis** sobre trilho duplo embutido no forro — permitindo reconfigurar a casa em poucos minutos, sem obra.",
+    "Todo o projeto foi desenvolvido em modelo **BIM** compartilhado com a marcenaria e a instalação elétrica desde a fase de estudo preliminar, o que permitiu compatibilizar pontos de luz, tomadas e módulos de marcenaria antes de a obra começar — eliminando boa parte dos retrabalhos que normalmente só aparecem no canteiro. A iluminação foi projetada em três camadas (geral, tarefa e acento), comandadas por cenas pré-definidas junto com a família.",
+    "A obra durou **quatro meses**, com a família residindo no imóvel durante as primeiras seis semanas — o que exigiu um faseamento específico para isolar poeira e ruído sem inviabilizar o uso da cozinha e de um dos quartos. Esse tipo de restrição, comum em reformas residenciais habitadas, teve peso direto na sequência de execução definida com a construtora.",
+    "Hoje o apartamento muda de configuração junto com a rotina de quem mora nele: a sala vira quarto de hóspedes em duas cenas de comando, o escritório se isola do ruído da casa quando o painel se fecha. O projeto reafirma uma convicção de trabalho: um programa de necessidades bem ouvido resolve mais problemas do que qualquer solução formal aplicada a priori."
+  ],
   "gallery": [
     {
       "src": "/images/projects/apartamento-jd/01.jpg",
@@ -68,14 +74,13 @@
   "team": [
     {
       "name": "Gabriel Augusto Moreira Marinho",
-      "role": "Arquiteto responsável"
+      "role": "Arquitetura de interiores"
     },
-    { "name": "Marcenaria Estúdio Cerne", "role": "Execução de marcenaria" },
-    {
-      "name": "Instaladora Elétrica Parceira",
-      "role": "Projeto e execução elétrica"
-    }
+    { "name": "Estúdio Cerne Marcenaria", "role": "Marcenaria" },
+    { "name": "Instaladora Elétrica JB", "role": "Elétrica / Automação" },
+    { "name": "Construtora Ambiente Obras", "role": "Construção" },
+    { "name": "Rafael Tonon", "role": "Fotografias" }
   ],
-  "conclusion": "O apartamento hoje muda de forma junto com a rotina de quem mora nele. O projeto reafirma uma convicção de trabalho: o programa de necessidades bem ouvido resolve mais problemas do que qualquer solução formal aplicada a priori.",
+  "conclusion": "Escutar a casa como ela é vivida — não apenas como ela é desenhada em planta — muda o tipo de solução que se propõe.",
   "nextProjectSlug": "ubs-vila-esperanca"
 }
