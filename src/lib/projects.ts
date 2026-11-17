@@ -11,8 +11,14 @@ import type { Project } from "@/types/project";
 import casaraoAzul from "@/content/projects/casarao-azul.json";
 import apartamentoJd from "@/content/projects/apartamento-jd.json";
 import ubsVilaEsperanca from "@/content/projects/ubs-vila-esperanca.json";
+import estudoApartamento1 from "@/content/projects/estudo-apartamento-1.json";
 
-const allProjects = [casaraoAzul, apartamentoJd, ubsVilaEsperanca] as unknown as Project[];
+const allProjects = [
+  casaraoAzul,
+  apartamentoJd,
+  ubsVilaEsperanca,
+  estudoApartamento1,
+] as unknown as Project[];
 
 export function getAllProjects(): Project[] {
   return [...allProjects].sort((a, b) => a.order - b.order);

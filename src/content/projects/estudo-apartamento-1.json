@@ -1,0 +1,110 @@
+{
+  "slug": "suite-amanda",
+  "title": "Suíte Amanda",
+  "subtitle": "Projeto de design de interiores para suíte e banheiro.",
+  "category": "residencial",
+  "categoryLabel": "Residencial",
+  "year": "2025",
+  "location": "Sorocaba — SP",
+  "area": null,
+  "client": "Amanda Pandolfo",
+  "status": "Projetado",
+  "order": 2,
+
+  "cover": {
+    "src": "/images/projects/suite-amanda/hero.png",
+    "alt": "Perspectiva da suíte com cama elevada, marcenaria planejada em tons de marsala e madeira",
+    "orientation": "landscape"
+  },
+
+  "description": "Projeto de interiores desenvolvido para uma suíte residencial, integrando dormitório e banheiro por meio de soluções de marcenaria sob medida, materiais naturais e uma composição cromática marcada por tons terrosos.",
+
+  "memorial": [
+    "O projeto propõe a transformação da suíte em um ambiente funcional e acolhedor, explorando a integração entre mobiliário, revestimentos e iluminação. A proposta parte de uma composição contemporânea, na qual a madeira e os tons neutros estabelecem uma base equilibrada para a presença marcante do marsala.",
+
+    "No dormitório, a marcenaria planejada assume papel central na organização espacial. A cama elevada integra uma estrutura de armazenamento inferior com gavetões, enquanto os armários superiores e laterais aproveitam a verticalidade do ambiente. O conjunto incorpora ainda painel ripado, nichos e compartimentos destinados à organização e ao uso cotidiano.",
+
+    "A materialidade combina MDF nos padrões Marsala, Antuérpia e Nuvem, da Guararapes, com elementos amadeirados que reforçam a sensação de aconchego. O piso em madeira maciça Tauari complementa a composição, estabelecendo continuidade visual entre os diferentes elementos do dormitório.",
+
+    "O projeto luminotécnico foi pensado para valorizar a marcenaria e proporcionar diferentes condições de uso. Foram especificados spots de LED embutidos, com temperaturas de cor de 3000K e 4000K, além de iluminação linear em perfil de LED, criando pontos de luz funcional e indireta.",
+
+    "No banheiro, a proposta mantém a linguagem visual do dormitório, utilizando superfícies marmorizadas em contraste com a marcenaria amadeirada. A bancada com cuba de apoio, o espelho retangular e o gabinete com gavetas compõem uma área de uso prática e visualmente integrada.",
+
+    "O box em vidro transparente preserva a percepção de amplitude do ambiente, enquanto o nicho embutido oferece espaço para armazenamento dos produtos de higiene. A escolha dos revestimentos marmorizados reforça a sofisticação da composição, sem romper com a identidade cromática estabelecida para a suíte."
+  ],
+
+  "gallery": [
+    {
+      "src": "/images/projects/suite-amanda/01.png",
+      "alt": "Vista principal da suíte com cama elevada e marcenaria planejada",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/suite-amanda/02.png",
+      "alt": "Vista posterior da suíte com roupeiro, televisão e armários superiores",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/suite-amanda/03.png",
+      "alt": "Perspectiva do banheiro com bancada amadeirada e revestimento marmorizado",
+      "orientation": "landscape"
+    }
+  ],
+
+  "diagrams": [],
+
+  "drawings": [
+    {
+      "src": "/images/projects/suite-amanda/planta-geral.png",
+      "alt": "Planta baixa e planta de forro da suíte e banheiro",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/suite-amanda/pontos-eletricos.png",
+      "alt": "Planta de pontos elétricos e iluminação",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/suite-amanda/detalhamento-suite.png",
+      "alt": "Detalhamento técnico da marcenaria e mobiliário da suíte",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/suite-amanda/detalhamento-banheiro.png",
+      "alt": "Detalhamento técnico do banheiro e bancada",
+      "orientation": "landscape"
+    }
+  ],
+
+  "details": [
+    {
+      "title": "Marcenaria sob medida",
+      "text": "Mobiliário planejado em MDF Guararapes, com padrões Marsala, Antuérpia e Nuvem, incluindo cama elevada com gavetões, roupeiros, nichos e armários superiores."
+    },
+    {
+      "title": "Composição de materiais",
+      "text": "Combinação de madeira maciça Tauari, MDF amadeirado e superfícies marmorizadas, criando contraste entre texturas e tonalidades."
+    },
+    {
+      "title": "Projeto luminotécnico",
+      "text": "Iluminação composta por spots de LED embutidos de 3000K e 4000K e perfis lineares de LED integrados à marcenaria."
+    },
+    {
+      "title": "Banheiro",
+      "text": "Bancada em pedra, gabinete com gavetas, espelho retangular, nicho embutido e box de vidro transparente."
+    }
+  ],
+
+  "software": ["Revit"],
+
+  "team": [
+    {
+      "name": "Gabriel Augusto Moreira Marinho",
+      "role": "Projeto de arquitetura e design de interiores"
+    }
+  ],
+
+  "conclusion": "A integração entre marcenaria, iluminação e materialidade demonstra como soluções planejadas podem transformar ambientes compactos em espaços funcionais, acolhedores e visualmente coerentes.",
+
+  "nextProjectSlug": "ubs-vila-esperanca"
+}
