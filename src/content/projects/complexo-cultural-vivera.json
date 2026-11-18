@@ -33,13 +33,13 @@
 
   "gallery": [
     {
-      "src": "/images/projects/complexo-cultural-vivera/hab.png",
-      "alt": "Vista arquitetônica do conjunto edificado e sua implantação",
+      "src": "/images/projects/complexo-cultural-vivera/vista-artes.png",
+      "alt": "Perspectiva interna do espaço destinado às atividades artísticas",
       "orientation": "landscape"
     },
     {
-      "src": "/images/projects/complexo-cultural-vivera/vista-artes.png",
-      "alt": "Perspectiva interna do espaço destinado às atividades artísticas",
+      "src": "/images/projects/complexo-cultural-vivera/portrait-arte.png",
+      "alt": "Vista arquitetônica do conjunto edificado e sua implantação",
       "orientation": "landscape"
     },
     {
@@ -48,8 +48,18 @@
       "orientation": "landscape"
     },
     {
+      "src": "/images/projects/complexo-cultural-vivera/portrait-biblioteca.png",
+      "alt": "Vista vertical da biblioteca com espaços de leitura e estudo",
+      "orientation": "landscape"
+    },
+    {
       "src": "/images/projects/complexo-cultural-vivera/vista-costura.png",
       "alt": "Oficina de costura equipada para atividades manuais e aprendizado",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/portrait-costura.png",
+      "alt": "Vista vertical da oficina de costura equipada para atividades manuais",
       "orientation": "landscape"
     },
     {
@@ -58,8 +68,18 @@
       "orientation": "landscape"
     },
     {
+      "src": "/images/projects/complexo-cultural-vivera/portrait-escultura.png",
+      "alt": "Vista vertical do espaço de oficina de escultura",
+      "orientation": "landscape"
+    },
+    {
       "src": "/images/projects/complexo-cultural-vivera/vista-informatica.png",
       "alt": "Sala de informática com estações de trabalho e equipamentos digitais",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/portrait-informatica.png",
+      "alt": "Vista vertical da sala de informática com estações de trabalho",
       "orientation": "landscape"
     }
   ],

@@ -24,12 +24,20 @@ import {
 
 import siteContent from "../src/content/site.json";
 import casaraoAzul from "../src/content/projects/casarao-azul.json";
-import apartamentoJd from "../src/content/projects/apartamento-jd.json";
+import loftCasarao from "../src/content/projects/loft-casarao.json";
 import ubsVilaEsperanca from "../src/content/projects/ubs-vila-esperanca.json";
+import estudoApartamento1 from "../src/content/projects/estudo-apartamento-1.json";
+import habitacionalVivera from "../src/content/projects/habitacional-vivera.json";
+import culturalVivera from "../src/content/projects/complexo-cultural-vivera.json";
 
-const projects = [casaraoAzul, apartamentoJd, ubsVilaEsperanca].sort(
-  (a, b) => a.order - b.order,
-);
+const projects = [
+  casaraoAzul,
+  loftCasarao,
+  ubsVilaEsperanca,
+  estudoApartamento1,
+  habitacionalVivera,
+  culturalVivera,
+].sort((a, b) => a.order - b.order);
 
 const styles = StyleSheet.create({
   page: {
