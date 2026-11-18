@@ -6,7 +6,8 @@ import { getAllProjects } from "@/lib/projects";
 
 export const metadata: Metadata = {
   title: "Projetos",
-  description: "Projetos residenciais, de patrimônio histórico e de arquitetura social.",
+  description:
+    "Projetos residenciais, de patrimônio histórico e de arquitetura social.",
 };
 
 export default function ProjectsPage() {

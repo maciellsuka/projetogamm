@@ -6,7 +6,13 @@ import { motion } from "framer-motion";
 import type { Project } from "@/types/project";
 import { Reveal } from "./Reveal";
 
-export function ProjectCard({ project, index }: { project: Project; index: number }) {
+export function ProjectCard({
+  project,
+  index,
+}: {
+  project: Project;
+  index: number;
+}) {
   return (
     <Reveal delay={index * 0.05}>
       <Link href={`/projetos/${project.slug}`} className="group block">
@@ -21,7 +27,11 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
               alt={project.cover.alt}
               fill
               sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-              className="object-cover"
+              className={`object-cover ${
+                project.slug === "casarao-azul"
+                  ? "object-left"
+                  : "object-center"
+              }`}
             />
           </motion.div>
           <div className="absolute left-4 top-4">
@@ -36,7 +46,9 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
             <h3 className="font-display text-xl font-light text-ink group-hover:text-clay transition-colors duration-300">
               {project.title}
             </h3>
-            <p className="mt-1 text-sm text-stone">{project.categoryLabel} — {project.location}</p>
+            <p className="mt-1 text-sm text-stone">
+              {project.categoryLabel} — {project.location}
+            </p>
           </div>
           <span
             aria-hidden

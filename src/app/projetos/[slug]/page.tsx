@@ -53,6 +53,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
   if (!project) notFound();
 
   const next = getAdjacentProject(project.slug);
+  const isVivera = project.slug === "complexo-cultural-vivera";
 
   return (
     <article>
@@ -69,28 +70,71 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </Container>
       </section>
 
-      {/* Diagramas */}
-      {project.diagrams.length > 0 && (
-        <section className="pb-24 sm:pb-30">
-          <Container wide>
-            <DraftMark label="Diagramas" className="mb-8 block" />
-            <ImageGrid images={project.diagrams} />
-          </Container>
-        </section>
-      )}
+      {/* Diagramas e plantas técnicas */}
+      <div className={`flex flex-col ${isVivera ? "" : ""}`}>
+        <div className={isVivera ? "order-2" : "order-1"}>
+          {/* Diagramas */}
+          {project.diagrams.length > 0 && (
+            <section className="pb-24 sm:pb-30">
+              <Container wide>
+                <DraftMark label="Diagramas" className="mb-8 block" />
 
-      {/* Plantas / desenhos técnicos */}
-      {project.drawings.length > 0 && (
-        <section className="pb-24 sm:pb-30">
-          <Container wide>
-            <DraftMark
-              label="Plantas & desenhos técnicos"
-              className="mb-8 block"
-            />
-            <ImageGrid images={project.drawings} />
-          </Container>
-        </section>
-      )}
+                {project.slug === "loft-casarao" ? (
+                  <div className="flex justify-center">
+                    {project.diagrams.map((image, index) => (
+                      <div key={index} className="w-full max-w-md">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={1200}
+                          height={1600}
+                          sizes="(max-width: 768px) 100vw, 448px"
+                          className="w-full h-auto object-contain"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <ImageGrid images={project.diagrams} />
+                )}
+              </Container>
+            </section>
+          )}
+        </div>
+
+        <div className={isVivera ? "order-1" : "order-2"}>
+          {/* Plantas / desenhos técnicos */}
+          {project.drawings.length > 0 && (
+            <section className="pb-24 sm:pb-30">
+              <Container wide>
+                <DraftMark
+                  label="Plantas & desenhos técnicos"
+                  className="mb-8 block"
+                />
+
+                {project.slug === "casarao-azul" ? (
+                  <div className="grid grid-cols-2 gap-3 sm:gap-5 items-start">
+                    {project.drawings.map((image, index) => (
+                      <div key={index} className="w-full">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          width={1200}
+                          height={1600}
+                          sizes="(max-width: 768px) 50vw, 50vw"
+                          className="w-full h-auto object-contain"
+                        />
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <ImageGrid images={project.drawings} />
+                )}
+              </Container>
+            </section>
+          )}
+        </div>
+      </div>
 
       {/* Galeria — renders / fotos, ritmo editorial em tela cheia */}
       <section id="registro" className="scroll-mt-36 py-24 sm:py-30 bg-ink">

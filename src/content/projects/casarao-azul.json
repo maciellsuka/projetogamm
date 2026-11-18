@@ -6,12 +6,12 @@
   "categoryLabel": "Patrimônio Histórico",
   "year": "2023",
   "location": "Rua Miranda Azevedo com Rua Sete de Setembro, Centro, Sorocaba — SP",
-  "area": "410 m²",
+  "area": "78,18 m²",
   "client": "Instituto Cultural Casarão Azul",
-  "status": "Construído",
+  "status": "Projeto de reuso adaptativo",
   "order": 1,
   "cover": {
-    "src": "/images/projects/casarao-azul/hero.jpeg",
+    "src": "/images/projects/casarao-azul/hero.png",
     "alt": "Fachada azul do sobrado histórico ao entardecer",
     "orientation": "landscape"
   },
@@ -26,43 +26,47 @@
   ],
   "gallery": [
     {
-      "src": "/images/projects/casarao-azul/01.svg",
+      "src": "/images/projects/casarao-azul/portrait-01.png",
       "alt": "Pátio interno com piso de tijolo recuperado",
-      "orientation": "portrait"
-    },
-    {
-      "src": "/images/projects/casarao-azul/02.svg",
-      "alt": "Detalhe da alvenaria de taipa exposta",
       "orientation": "landscape"
     },
     {
-      "src": "/images/projects/casarao-azul/03.png",
-      "alt": "Volume contemporâneo em aço corten nos fundos",
-      "orientation": "portrait"
-    },
-    {
-      "src": "/images/projects/casarao-azul/04.png",
-      "alt": "Sala principal restaurada com forro de madeira original",
+      "src": "/images/projects/casarao-azul/portrait-02.png",
+      "alt": "Pátio interno com piso de tijolo recuperado",
       "orientation": "landscape"
     },
     {
-      "src": "/images/projects/casarao-azul/PROJETO_CASARAO_AZUL.jpg",
-      "alt": "Sala principal restaurada com forro de madeira original",
-      "orientation": "portrait"
-    }
-  ],
-  "diagrams": [
+      "src": "/images/projects/casarao-azul/portrait-03.png",
+      "alt": "Pátio interno com piso de tijolo recuperado",
+      "orientation": "landscape"
+    },
     {
-      "src": "/images/projects/casarao-azul/diagrama.jpg",
-      "alt": "Diagrama de estratos construtivos e intervenção",
-      "orientation": "square"
+      "src": "/images/projects/casarao-azul/portrait-04.png",
+      "alt": "Pátio interno com piso de tijolo recuperado",
+      "orientation": "landscape"
     }
   ],
+  "diagrams": [],
   "drawings": [
     {
-      "src": "/images/projects/casarao-azul/planta.jpg",
+      "src": "/images/projects/casarao-azul/terreo-casarao.png",
       "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
       "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/casarao-azul/pavimento-casarao.png",
+      "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
+      "orientation": "lanc"
+    },
+    {
+      "src": "/images/projects/casarao-azul/01.png",
+      "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/casarao-azul/02.png",
+      "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
+      "orientation": "portrait"
     }
   ],
   "details": [
@@ -75,33 +79,13 @@
       "text": "Volume habitacional contemporâneo implantado nos fundos do lote, com estrutura aparente em pilares e vigas, estabelecendo um diálogo respeitoso entre o patrimônio histórico e a arquitetura atual."
     }
   ],
-  "software": ["Revit", "AutoCAD", "Recap Photo (fotogrametria)", "Lumion"],
+  "software": ["Revit"],
   "team": [
     {
       "name": "Gabriel Augusto Moreira Marinho",
       "role": "Arquitetura e restauro"
-    },
-    {
-      "name": "Estúdio Estratigrafia Consultoria",
-      "role": "Análise estratigráfica"
-    },
-    {
-      "name": "Telha & Associados Estrutural",
-      "role": "Estrutura / Fundações"
-    },
-    {
-      "name": "Instaladora Predial Itu",
-      "role": "Elétrica / Hidráulica"
-    },
-    {
-      "name": "Construtora Patrimônio Vivo",
-      "role": "Construção"
-    },
-    {
-      "name": "Marina Kohl",
-      "role": "Fotografias"
     }
   ],
   "conclusion": "O projeto demonstra que a preservação do patrimônio histórico e a arquitetura contemporânea podem coexistir de forma clara e respeitosa, mantendo a identidade do edifício original enquanto incorporam novos usos capazes de revitalizar sua relação com a cidade.",
-  "nextProjectSlug": "apartamento-jd"
+  "nextProjectSlug": "loft-casarao"
 }

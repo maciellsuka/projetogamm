@@ -1,0 +1,147 @@
+{
+  "slug": "complexo-cultural-vivera",
+  "title": "Vivera — Complexo Cultural",
+  "subtitle": "Centro cultural, convivência e longevidade ativa",
+  "category": "cultural",
+  "categoryLabel": "Cultural",
+  "year": "2026",
+  "location": "Jardim Santa Rosália, Sorocaba — SP",
+  "area": "138 m²",
+  "client": "Cliente privado",
+  "status": "Planejado",
+  "order": 2,
+
+  "cover": {
+    "src": "/images/projects/complexo-cultural-vivera/hero.png",
+    "alt": "Vista externa do Complexo Cultural Vivera, com arquitetura contemporânea e áreas de convivência",
+    "orientation": "landscape"
+  },
+
+  "description": "Desenvolvimento de um complexo cultural multifuncional voltado à convivência intergeracional, à longevidade ativa e à democratização do acesso à cultura, ao conhecimento e à expressão artística.",
+
+  "memorial": [
+    "O Centro Cultural do complexo multifuncional nasce a partir da integração ativa com o espaço urbano, propondo um ambiente aberto, dinâmico e acolhedor para todas as gerações. Embora o programa abrace o público geral em busca de lazer, convivência e estímulo cognitivo ao longo do dia, o equipamento assume um papel social determinante: devolver protagonismo, autonomia e dignidade à terceira idade por meio da ocupação criativa do espaço.",
+
+    "A arquitetura do projeto foi concebida para estimular a longevidade ativa e o aprendizado contínuo, promovendo o encontro intergeracional entre idosos, familiares e a comunidade. Em vez de isolar o público sênior, o edifício articula fluxos e visuais que incentivam a troca de experiências, transformando o cotidiano em um processo coletivo de desenvolvimento pessoal e independência.",
+
+    "O programa de necessidades organiza-se de forma fluida para suportar uma rotina intensa de atividades. Além dos setores administrativos e de apoio técnico dedicados aos funcionários, o complexo integra áreas de convivência e cantinas a um núcleo diversificado de ateliês. Oficinas de costura, cerâmica e escultura foram projetadas não apenas para o fazer manual, mas também para a exposição e valorização da produção artesanal dos usuários.",
+
+    "Complementando o eixo criativo, o edifício conta com salas de artes, biblioteca voltada para estudos e reuniões, e espaços de informática focados na inclusão digital e na democratização do acesso à tecnologia. Cada ambiente busca eliminar barreiras físicas e simbólicas, garantindo que o conhecimento e a expressão artística permaneçam acessíveis em todas as fases da vida.",
+
+    "O projeto parte da premissa de que o direito à cidade e o envelhecimento digno começam pela qualidade dos espaços que habitamos. Ao consolidar uma infraestrutura sensível às demandas humanas, a proposta demonstra como a arquitetura pode atuar como agente de transformação social, impulsionando o bem-estar, a autoestima e a vitalidade urbana."
+  ],
+
+  "gallery": [
+    {
+      "src": "/images/projects/complexo-cultural-vivera/hab.png",
+      "alt": "Vista arquitetônica do conjunto edificado e sua implantação",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/vista-artes.png",
+      "alt": "Perspectiva interna do espaço destinado às atividades artísticas",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/vista-biblioteca.png",
+      "alt": "Ambiente interno da biblioteca com espaços de leitura e estudo",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/vista-costura.png",
+      "alt": "Oficina de costura equipada para atividades manuais e aprendizado",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/vista-escultura.png",
+      "alt": "Espaço de oficina de escultura para atividades artísticas",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/vista-informatica.png",
+      "alt": "Sala de informática com estações de trabalho e equipamentos digitais",
+      "orientation": "landscape"
+    }
+  ],
+
+  "diagrams": [
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-hall.png",
+      "alt": "Perspectiva axonométrica do ambiente destinado às atividades artísticas",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-artes.png",
+      "alt": "Perspectiva axonométrica do ambiente destinado às atividades artísticas",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-biblioteca.png",
+      "alt": "Perspectiva axonométrica da organização espacial da biblioteca",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-cantina.png",
+      "alt": "Perspectiva axonométrica do espaço de cantina e convivência",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-costura.png",
+      "alt": "Perspectiva axonométrica da oficina de costura",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-escultura.png",
+      "alt": "Perspectiva axonométrica da oficina de escultura",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/perspectiva-informatica.png",
+      "alt": "Perspectiva axonométrica do laboratório de informática",
+      "orientation": "landscape"
+    }
+  ],
+
+  "drawings": [
+    {
+      "src": "/images/projects/complexo-cultural-vivera/subsolo.png",
+      "alt": "Planta arquitetônica do pavimento subsolo",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/terreo.png",
+      "alt": "Planta arquitetônica do pavimento térreo e distribuição dos ambientes",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/cobertura.png",
+      "alt": "Planta arquitetônica de cobertura do complexo cultural",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/corte-longitudinal.png",
+      "alt": "Corte longitudinal apresentando a organização vertical e espacial do edifício",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/complexo-cultural-vivera/corte-transversal.png",
+      "alt": "Corte transversal apresentando a configuração espacial e construtiva do edifício",
+      "orientation": "landscape"
+    }
+  ],
+
+  "details": [],
+
+  "software": ["Revit"],
+
+  "team": [
+    {
+      "name": "Gabriel Augusto Moreira Marinho",
+      "role": "Arquitetura e desenvolvimento do projeto"
+    }
+  ],
+
+  "conclusion": "Mais do que um equipamento cultural, o Vivera propõe uma arquitetura que aproxima gerações, estimula a autonomia e transforma os espaços de convivência em oportunidades de aprendizado, expressão e pertencimento.",
+
+  "nextProjectSlug": "ubs-vila-esperanca"
+}

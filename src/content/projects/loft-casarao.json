@@ -1,0 +1,92 @@
+{
+  "slug": "loft-casarao",
+  "title": "Loft - Casarão Azul",
+  "subtitle": "Reuso adaptativo de sobrado histórico no centro de Sorocaba",
+  "category": "patrimonio-historico",
+  "categoryLabel": "Patrimônio Histórico",
+  "year": "2023",
+  "location": "Rua Miranda Azevedo com Rua Sete de Setembro, Centro, Sorocaba — SP",
+  "area": "52,82 m²",
+  "client": "Instituto Cultural Casarão Azul",
+  "status": "Projeto de reuso adaptativo",
+  "order": 1,
+  "cover": {
+    "src": "/images/projects/loft-casarao-azul/hero.png",
+    "alt": "Fachada azul do sobrado histórico ao entardecer",
+    "orientation": "landscape"
+  },
+  "description": "Projeto de reuso adaptativo de um sobrado histórico localizado no centro de Sorocaba, preservando sua identidade arquitetônica e incorporando novos usos comerciais e residenciais.",
+  "memorial": [
+    "O imóvel, carinhosamente conhecido como **Casarão Azul**, é um sobrado urbano localizado na esquina da **Rua Miranda Azevedo** com a **Rua Sete de Setembro**, no centro de **Sorocaba**. Exemplar representativo das residências pertencentes às famílias mais abastadas da primeira metade do século XX, sua presença marca a paisagem urbana e estabelece relação direta com importantes marcos históricos e culturais da cidade.",
+    "Construído originalmente por volta da virada do século XX, o edifício apresenta uma arquitetura rica em elementos ornamentais. Cornijas, balaústres e demais detalhes decorativos preservam parte significativa da linguagem arquitetônica da época, refletindo a atmosfera urbana e a expressividade das residências sorocabanas do período.",
+    "O projeto teve como principal objetivo promover o **reuso adaptativo** da edificação, atribuindo-lhe uma nova função social e econômica sem comprometer sua identidade histórica. A proposta respeita integralmente a volumetria e a essência da construção existente, destinando o pavimento histórico à implantação de uma cafeteria e cyber café, incentivando novamente a permanência e circulação de pessoas no patrimônio edificado.",
+    "Na porção posterior do lote foi implantada uma nova arquitetura de caráter exclusivamente habitacional, transformando o conjunto em um complexo de uso misto, combinando atividades comerciais e residenciais. A nova edificação utiliza um sistema estrutural aparente, composto por pilares e vigas de linguagem contemporânea, estabelecendo um diálogo respeitoso com a construção histórica sem competir com sua presença.",
+    "Elementos da nova fachada, como as bandeiras das portas e as amplas esquadrias estendidas até a laje, reforçam intencionalmente o contraste entre antigo e novo. A estratégia adota princípios contemporâneos de intervenção em patrimônio, nos quais a edificação original permanece claramente identificável, enquanto as novas inserções assumem linguagem arquitetônica própria, evidenciando as diferentes temporalidades da composição.",
+    "O projeto busca demonstrar que a preservação do patrimônio arquitetônico pode caminhar lado a lado com novos programas e formas de ocupação, permitindo que edifícios históricos permaneçam ativos, relevantes e integrados à dinâmica urbana contemporânea."
+  ],
+  "gallery": [
+    {
+      "src": "/images/projects/loft-casarao-azul/portrait-01.png",
+      "alt": "Pátio interno com piso de tijolo recuperado",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/loft-casarao-azul/02.svg",
+      "alt": "Detalhe da alvenaria de taipa exposta",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/loft-casarao-azul/03.png",
+      "alt": "Volume contemporâneo em aço corten nos fundos",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/loft-casarao-azul/04.png",
+      "alt": "Sala principal restaurada com forro de madeira original",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/loft-casarao-azul/PROJETO_CASARAO_AZUL.jpg",
+      "alt": "Sala principal restaurada com forro de madeira original",
+      "orientation": "portrait"
+    }
+  ],
+  "diagrams": [
+    {
+      "src": "/images/projects/loft-casarao-azul/diagrama-explosao.png",
+      "alt": "Sala principal restaurada com forro de madeira original",
+      "orientation": "portrait"
+    }
+  ],
+  "drawings": [
+    {
+      "src": "/images/projects/casarao-azul/01.png",
+      "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/casarao-azul/02.png",
+      "alt": "Planta do pavimento térreo com legenda de permanências e inserções",
+      "orientation": "portrait"
+    }
+  ],
+  "details": [
+    {
+      "title": "Reuso adaptativo",
+      "text": "A edificação histórica foi revitalizada para receber uma cafeteria e cyber café, preservando integralmente sua volumetria e características arquitetônicas originais."
+    },
+    {
+      "title": "Nova edificação",
+      "text": "Volume habitacional contemporâneo implantado nos fundos do lote, com estrutura aparente em pilares e vigas, estabelecendo um diálogo respeitoso entre o patrimônio histórico e a arquitetura atual."
+    }
+  ],
+  "software": ["Revit"],
+  "team": [
+    {
+      "name": "Gabriel Augusto Moreira Marinho",
+      "role": "Arquitetura e restauro"
+    }
+  ],
+  "conclusion": "O projeto demonstra que a preservação do patrimônio histórico e a arquitetura contemporânea podem coexistir de forma clara e respeitosa, mantendo a identidade do edifício original enquanto incorporam novos usos capazes de revitalizar sua relação com a cidade.",
+  "nextProjectSlug": "casarao-azul"
+}

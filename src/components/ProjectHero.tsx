@@ -16,7 +16,12 @@ export function ProjectHero({ project }: { project: Project }) {
     gsap.fromTo(
       titleRef.current,
       { clipPath: "inset(0 100% 0 0)" },
-      { clipPath: "inset(0 0% 0 0)", duration: 1.3, delay: 0.3, ease: "power4.out" }
+      {
+        clipPath: "inset(0 0% 0 0)",
+        duration: 1.3,
+        delay: 0.3,
+        ease: "power4.out",
+      },
     );
   }, []);
 
@@ -27,15 +32,21 @@ export function ProjectHero({ project }: { project: Project }) {
         alt={project.cover.alt}
         fill
         priority
-        sizes="100vw"
-        className="object-cover opacity-85"
+        className={`object-cover ${
+          project.slug === "loft-casarao"
+            ? "object-[center_15%]"
+            : "object-center"
+        }`}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-ink/80 via-ink/10 to-ink/40" />
 
       <div className="relative z-10 flex h-full flex-col justify-between px-5 py-8 sm:px-8 sm:py-10 lg:px-16 lg:py-14">
         <div className="flex items-center justify-between">
           <DraftMark label={project.categoryLabel} className="!text-paper/70" />
-          <DraftMark label={`${project.year} — ${project.location}`} className="!text-paper/70 hidden sm:inline-flex" />
+          <DraftMark
+            label={`${project.year} — ${project.location}`}
+            className="!text-paper/70 hidden sm:inline-flex"
+          />
         </div>
 
         <div>
@@ -45,7 +56,9 @@ export function ProjectHero({ project }: { project: Project }) {
           >
             {project.title}
           </h1>
-          <p className="mt-4 max-w-xl text-body-lg text-paper/85">{project.subtitle}</p>
+          <p className="mt-4 max-w-xl text-body-lg text-paper/85">
+            {project.subtitle}
+          </p>
         </div>
       </div>
     </section>

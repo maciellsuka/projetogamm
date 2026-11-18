@@ -9,15 +9,19 @@ import type { Project } from "@/types/project";
 // muito; para o volume típico de um portfólio autoral, a lista explícita é
 // mais simples de auditar e não exige build step adicional.
 import casaraoAzul from "@/content/projects/casarao-azul.json";
-import apartamentoJd from "@/content/projects/apartamento-jd.json";
+import loftCasarao from "@/content/projects/loft-casarao.json";
 import ubsVilaEsperanca from "@/content/projects/ubs-vila-esperanca.json";
 import estudoApartamento1 from "@/content/projects/estudo-apartamento-1.json";
+import habitacionalVivera from "@/content/projects/habitacional-vivera.json";
+import culturalVivera from "@/content/projects/complexo-cultural-vivera.json";
 
 const allProjects = [
   casaraoAzul,
-  apartamentoJd,
+  loftCasarao,
   ubsVilaEsperanca,
   estudoApartamento1,
+  habitacionalVivera,
+  culturalVivera,
 ] as unknown as Project[];
 
 export function getAllProjects(): Project[] {

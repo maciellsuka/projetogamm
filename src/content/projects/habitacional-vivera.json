@@ -1,0 +1,79 @@
+{
+  "slug": "habitacional-vivera",
+  "title": "Vivera - Habitacional",
+  "subtitle": "Complexo multifuncional",
+  "category": "residencial",
+  "categoryLabel": "Residencial",
+  "year": "2026",
+  "location": "Jardim Santa Rosália, Sorocaba — SP",
+  "area": "138 m²",
+  "client": "Cliente privado",
+  "status": "Planejado",
+  "order": 2,
+  "cover": {
+    "src": "/images/projects/habitacional-vivera/hero.png",
+    "alt": "Sala de estar com luz natural e marcenaria em madeira clara",
+    "orientation": "landscape"
+  },
+  "description": "Reorganização espacial de uma planta compartimentada, resolvendo a convivência entre avós, pais e uma criança pequena.",
+  "memorial": ["aqui mora gente idosa"],
+  "gallery": [
+    {
+      "src": "/images/projects/habitacional-vivera/01.png",
+      "alt": "Cozinha integrada com ilha central",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/habitacional-vivera/02.png",
+      "alt": "Painel ripado móvel entre sala e escritório",
+      "orientation": "portrait"
+    },
+    {
+      "src": "/images/projects/habitacional-vivera/03.png",
+      "alt": "Suíte principal com luz da tarde",
+      "orientation": "landscape"
+    },
+    {
+      "src": "/images/projects/habitacional-vivera/04.png",
+      "alt": "Detalhe de marcenaria sob medida",
+      "orientation": "portrait"
+    }
+  ],
+  "diagrams": [
+    {
+      "src": "/images/projects/habitacional-vivera/diagrama.png",
+      "alt": "Diagrama de configurações espaciais ao longo do dia",
+      "orientation": "square"
+    }
+  ],
+  "drawings": [
+    {
+      "src": "/images/projects/habitacional-vivera/planta.png",
+      "alt": "Planta baixa com eixo de circulação e núcleos molhados",
+      "orientation": "landscape"
+    }
+  ],
+  "details": [
+    {
+      "title": "Painéis móveis",
+      "text": "Sistema de trilho duplo embutido no forro, dimensionado em BIM para não interferir nos dutos de ar-condicionado existentes."
+    },
+    {
+      "title": "Iluminação",
+      "text": "Camadas de luz geral, de tarefa e de acento comandadas por três cenas pré-definidas junto com a família, simplificando o uso diário."
+    }
+  ],
+  "software": ["Revit", "Enscape", "SketchUp", "AutoCAD"],
+  "team": [
+    {
+      "name": "Gabriel Augusto Moreira Marinho",
+      "role": "Arquitetura de interiores"
+    },
+    { "name": "Estúdio Cerne Marcenaria", "role": "Marcenaria" },
+    { "name": "Instaladora Elétrica JB", "role": "Elétrica / Automação" },
+    { "name": "Construtora Ambiente Obras", "role": "Construção" },
+    { "name": "Rafael Tonon", "role": "Fotografias" }
+  ],
+  "conclusion": "Escutar a casa como ela é vivida — não apenas como ela é desenhada em planta — muda o tipo de solução que se propõe.",
+  "nextProjectSlug": "ubs-vila-esperanca"
+}

@@ -27,7 +27,10 @@ export default function HomePage() {
         <Container wide>
           <div className="grid grid-cols-1 gap-14 lg:grid-cols-12 lg:gap-8">
             <div className="lg:col-span-5">
-              <SectionTitle eyebrow={home.manifestoEyebrow} title={home.manifestoTitle} />
+              <SectionTitle
+                eyebrow={home.manifestoEyebrow}
+                title={home.manifestoTitle}
+              />
               <div className="mt-10 space-y-5 max-w-prose">
                 {home.manifestoParagraphs.map((p, i) => (
                   <Reveal key={i} delay={0.1 + i * 0.05}>
@@ -36,18 +39,25 @@ export default function HomePage() {
                 ))}
               </div>
               <Reveal delay={0.3} className="mt-10">
-                <Button href="/sobre" variant="ghost">Conheça a trajetória</Button>
+                <Button href="/sobre" variant="ghost">
+                  Conheça a trajetória
+                </Button>
               </Reveal>
             </div>
 
-            <Reveal delay={0.1} className="lg:col-span-7 relative aspect-[4/3] lg:aspect-auto lg:h-full overflow-hidden bg-line">
-              <Image
-                src={home.manifestoImage}
-                alt="Estudo de massa arquitetônica"
-                fill
-                sizes="(min-width: 1024px) 60vw, 100vw"
-                className="object-cover"
-              />
+            <Reveal
+              delay={0.1}
+              className="lg:col-span-7 flex justify-center items-start"
+            >
+              <div className="relative w-full max-w-[75%] aspect-[7772/9319]">
+                <Image
+                  src={home.manifestoImage}
+                  alt="Estudo de massa arquitetônica"
+                  fill
+                  sizes="(min-width: 1024px) 50vw, 100vw"
+                  className="object-contain"
+                />
+              </div>
             </Reveal>
           </div>
         </Container>
@@ -59,9 +69,14 @@ export default function HomePage() {
       <section className="py-30 sm:py-34">
         <Container wide>
           <div className="flex items-end justify-between gap-6 mb-16">
-            <SectionTitle eyebrow="Projetos selecionados" title="Trabalhos recentes" />
+            <SectionTitle
+              eyebrow="Projetos selecionados"
+              title="Trabalhos recentes"
+            />
             <Reveal className="hidden sm:block">
-              <Button href="/projetos" variant="ghost">Ver todos</Button>
+              <Button href="/projetos" variant="ghost">
+                Ver todos
+              </Button>
             </Reveal>
           </div>
 
@@ -72,7 +87,9 @@ export default function HomePage() {
           </div>
 
           <Reveal className="mt-14 sm:hidden">
-            <Button href="/projetos" variant="ghost">Ver todos os projetos</Button>
+            <Button href="/projetos" variant="ghost">
+              Ver todos os projetos
+            </Button>
           </Reveal>
         </Container>
       </section>
