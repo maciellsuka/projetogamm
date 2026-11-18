@@ -15,7 +15,12 @@ export function ImageGrid({ images }: { images: ProjectImage[] }) {
 
   return (
     <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      <Reveal className={clsx("relative overflow-hidden bg-line", "sm:col-span-2 aspect-[16/9]")}>
+      <Reveal
+        className={clsx(
+          "relative overflow-hidden",
+          "sm:col-span-2 aspect-[16/9]",
+        )}
+      >
         <Image
           src={first.src}
           alt={first.alt}
@@ -30,8 +35,8 @@ export function ImageGrid({ images }: { images: ProjectImage[] }) {
           key={img.src}
           delay={i * 0.05}
           className={clsx(
-            "relative overflow-hidden bg-line",
-            img.orientation === "portrait" ? "aspect-[3/4]" : "aspect-[4/3]"
+            "relative overflow-hidden",
+            img.orientation === "portrait" ? "aspect-[3/4]" : "aspect-[4/3]",
           )}
         >
           <Image
